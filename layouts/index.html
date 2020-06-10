@@ -8,9 +8,10 @@
     {{ range $paginator.Pages }}
     <ul class="listing">
       <div class="listing-item">
-        <div class="listing-post"><a href="{{  .Page.Params.Medium }}" title="{{ .Title }}">{{ .Title }}</a>
-          <div class="post-time"><span class="date">{{.Date.Format "02/01/2006" }}</span></div>
+        <div class="listing-post" ><a href="{{  .Page.Params.Medium }}" title="{{ .Title }}" >{{ .Title }}</a>
+         
         </div>
+        <div class="post-time"><span class="date">{{.Date.Format "02/01/2006" }}</span></div>
       </div>
     </ul>
     {{ end }}
