@@ -43,7 +43,7 @@ body {
 p {
   line-height: 1.9em;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
@@ -173,7 +173,7 @@ a:hover, a:active {
   list-style: none;
   padding: 11px 30px;
   float: left;
-  font-size: 12px;
+  font-size: 16px;
 }
 .page-top .nav li {
   position: relative;
@@ -188,7 +188,7 @@ a:hover, a:active {
 }
 .page-top .nav a.current {
   color: var(--nav-text-color);
-  padding-bottom: 22px;
+  padding-bottom: 13px;
   border-bottom: 1px solid var(--nav-text-color);
 }
 .page-top .themeswitcher {
@@ -250,9 +250,9 @@ a:hover, a:active {
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1;
-  margin: 1em;
+  margin: 0.5em;
 }
 .sidebar .logo-title .title a {
   text-decoration: none;
@@ -489,7 +489,7 @@ a:hover, a:active {
   padding: 0;
 }
 .list-with-title .listing .listing-post {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .list-with-title .listing .listing-post .post-time {
   float: right;

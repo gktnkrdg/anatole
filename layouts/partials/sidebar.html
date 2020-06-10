@@ -12,14 +12,14 @@
         {{ range $item := .Site.Params.socialIcons }}
         <li>
         <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}">
-          <i class="fa fa-2x {{ $item.icon }}" aria-hidden="true"></i>
+          <i class="{{ $item.icon }}" aria-hidden="true"></i>
         </a>          
         </li>
 
         {{ end }}
     </ul>
     <div class="footer">
-        <div class="by_farbox">&copy; {{ .Site.Params.author }} {{ now.Format "2006"}} </div>
+        <div class="by_farbox">&copy; {{ .Site.Params.author }} {{ now.Format "2006"}} - Powered by Hugo Anotele theme </div>
       </div>
     </div>
 </div>
