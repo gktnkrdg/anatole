@@ -2,10 +2,13 @@
 <div class="post animated fadeInDown">
     <div class="post-content">
 
-      <div class="post-title">
-        <h3>{{ .Title }}
-        </h3>
+      <div class="post-title{{ .Title }}
+        </h3>">
+        <h3>
         {{ if eq .Type "post"}}
+        <div>
+         <span></span> 
+        </div>
         <div class="info">
           <i class="fa fa-sun-o"></i><span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
           <i class="fa fa-clock-o"></i><span class="reading-time">{{ .ReadingTime }}-minute read</span>

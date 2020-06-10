@@ -156,12 +156,12 @@ a:hover, a:active {
 .content {
   height: auto;
   float: right;
-  width: 60%;
+  width: 75%;
   margin-top: 60px;
 }
 
 .page-top {
-  width: 60%;
+  width: 75%;
   position: fixed;
   right: 0;
   z-index: 3;
@@ -221,7 +221,7 @@ a:hover, a:active {
 }
 
 .sidebar {
-  width: 40%;
+  width: 25%;
   -webkit-background-size: cover;
   background-size: cover;
   background-color: var(--bg-color);
@@ -243,7 +243,7 @@ a:hover, a:active {
   margin: 0 auto;
 }
 .sidebar .logo-title .title img {
-  width: 127px;
+  width: 180px;
   border-radius: 50%;
 }
 .sidebar .logo-title .title h3 {
@@ -257,7 +257,7 @@ a:hover, a:active {
 .sidebar .logo-title .title a {
   text-decoration: none;
   color: var(--heading-color);
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 .sidebar .social-links {
@@ -471,7 +471,7 @@ a:hover, a:active {
 }
 
 .list-with-title {
-  font-size: 14px;
+  font-size: 20px;
   margin: 30px;
   padding: 0;
 }
